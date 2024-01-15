@@ -1,12 +1,12 @@
 # ZoomIn
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_ZoomIn.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_ZoomIn.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -21,14 +21,14 @@
 
 
 # ZoomOut
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_ZoomOut.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_ZoomOut.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -43,14 +43,14 @@
 
 
 # PanLeft
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_PanLeft.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_PanLeft.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -65,14 +65,14 @@
 
 
 # PanRight
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_PanRight.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -87,14 +87,14 @@
 
 
 # TiltUp
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_TiltUp.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_TiltUp.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -109,14 +109,14 @@
 
 
 # TiltDown
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_TiltDown.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_TiltDown.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -131,14 +131,14 @@
 
 
 # RollingAnticlockwise
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_RollingAnticlockwise.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_RollingAnticlockwise.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
@@ -153,14 +153,14 @@
 
 
 # RollingClockwise
-- inference_config: "configs/inference/inference-v2.yaml"
-  motion_module:    "models/Motion_Module/mm_sd_v15_v2.ckpt"
+- inference_config: "/workspace/AnimateDiff/configs/inference/inference-v2.yaml"
+  motion_module: "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15_v2.ckpt"
 
   motion_module_lora_configs:
-    - path:  "models/MotionLoRA/v2_lora_RollingClockwise.ckpt"
+    - path:  "/workspace/AnimateDiff/models/MotionLoRA/v2_lora_RollingClockwise.ckpt"
       alpha: 1.0
 
-  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
+  dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/realisticVisionV51_v51VAE.safetensors"
   lora_model_path: ""
 
   seed:           45987230
