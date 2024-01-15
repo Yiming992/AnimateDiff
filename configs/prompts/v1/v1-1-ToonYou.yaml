@@ -1,9 +1,9 @@
 # motion module v1_14
-- dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/toonyou_beta6.safetensors"
+- dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/toonyou_beta3.safetensors"
   lora_model_path: ""
 
   inference_config: "/workspace/AnimateDiff/configs/inference/inference-v1.yaml"
-  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v14.ckpt"
+  motion_module:    "/workspace/AnimateDiff/models/Motion_Module/mm_sd_v15.ckpt"
 
   seed: [10788741199826055526, 6520604954829636163, 6519455744612555650, 16372571278361863751]
   steps: 25
@@ -20,7 +20,7 @@
 
 
 # motion module v1_15
-- dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/toonyou_beta6.safetensors"
+- dreambooth_path: "/workspace/AnimateDiff/models/DreamBooth_LoRA/toonyou_beta3.safetensors"
   lora_model_path: ""
 
   inference_config: "/workspace/AnimateDiff/configs/inference/inference-v1.yaml"
